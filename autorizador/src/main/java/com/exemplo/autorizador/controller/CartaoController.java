@@ -17,8 +17,8 @@ import com.exemplo.autorizador.exceptions.CartaoInvalidoException;
 import com.exemplo.autorizador.exceptions.SaldoInsuficienteException;
 import com.exemplo.autorizador.exceptions.SenhaInvalidaException;
 import com.exemplo.autorizador.models.Cartao;
-import com.exemplo.autorizador.models.resquest.CartaoRequest;
-import com.exemplo.autorizador.models.resquest.TransacaoDto;
+import com.exemplo.autorizador.models.Dto.CartaoRequest;
+import com.exemplo.autorizador.models.Dto.TransacaoDto;
 import com.exemplo.autorizador.service.CartaoService;
 
 @Controller

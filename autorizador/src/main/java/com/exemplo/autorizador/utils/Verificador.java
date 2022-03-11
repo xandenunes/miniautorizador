@@ -2,7 +2,7 @@ package com.exemplo.autorizador.utils;
 
 import org.springframework.stereotype.Component;
 
-import com.exemplo.autorizador.models.resquest.CartaoRequest;
+import com.exemplo.autorizador.models.Dto.CartaoRequest;
 @Component
 public class Verificador {
 	public boolean verificarCartaoResquest(CartaoRequest cartao) {

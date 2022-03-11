@@ -16,4 +16,8 @@ public class AtivadorException {
 	public boolean throwCartaoInvalidoException() {
 	    throw new CartaoInvalidoException();
 	}
+	
+	public boolean throwClienteInvalidoException() {
+	    throw new ClienteInvalidoException();
+	}
 }

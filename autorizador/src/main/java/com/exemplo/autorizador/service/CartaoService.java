@@ -7,8 +7,8 @@ import org.springframework.stereotype.Service;
 
 import com.exemplo.autorizador.exceptions.AtivadorException;
 import com.exemplo.autorizador.models.Cartao;
-import com.exemplo.autorizador.models.resquest.CartaoRequest;
-import com.exemplo.autorizador.models.resquest.TransacaoDto;
+import com.exemplo.autorizador.models.Dto.CartaoRequest;
+import com.exemplo.autorizador.models.Dto.TransacaoDto;
 import com.exemplo.autorizador.repository.CartaoRepository;
 import com.exemplo.autorizador.utils.Verificador;
 
